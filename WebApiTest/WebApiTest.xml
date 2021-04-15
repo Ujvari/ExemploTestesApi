@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApiTest</name>
+    </assembly>
+    <members>
+        <member name="T:WebApiTest.Controllers.CalculosController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:WebApiTest.Controllers.CalculosController.#ctor(WebApiTest.Services.ICalculoService)">
+            <summary>
+            
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="M:WebApiTest.Controllers.CalculosController.Divisao(System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="numeroA"></param>
+            <param name="numeroB"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiTest.Controllers.CalculosController.Multiplicacao(System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="numeroA"></param>
+            <param name="numeroB"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiTest.Controllers.CalculosController.Soma(System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="numeroA"></param>
+            <param name="numeroB"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiTest.Controllers.CalculosController.Subtracao(System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="numeroA"></param>
+            <param name="numeroB"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiTest.Controllers.CalculosController.HealthCheck">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:WebApiTest.Services.CalculoService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:WebApiTest.Services.CalculoService.Divisao(System.Int32,System.Int32)">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApiTest.Services.CalculoService.Multiplicacao(System.Int32,System.Int32)">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApiTest.Services.CalculoService.Soma(System.Int32,System.Int32)">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApiTest.Services.CalculoService.Subtracao(System.Int32,System.Int32)">
+            <inheritdoc />
+        </member>
+        <member name="T:WebApiTest.Services.ICalculoService">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:WebApiTest.Services.ICalculoService.Divisao(System.Int32,System.Int32)">
+            <summary>
+            </summary>
+            <param name="numeroA"></param>
+            <param name="numeroB"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiTest.Services.ICalculoService.Multiplicacao(System.Int32,System.Int32)">
+            <summary>
+            </summary>
+            <param name="numeroA"></param>
+            <param name="numeroB"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiTest.Services.ICalculoService.Soma(System.Int32,System.Int32)">
+            <summary>
+            </summary>
+            <param name="numeroA"></param>
+            <param name="numeroB"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiTest.Services.ICalculoService.Subtracao(System.Int32,System.Int32)">
+            <summary>
+            </summary>
+            <param name="numeroA"></param>
+            <param name="numeroB"></param>
+            <returns></returns>
+        </member>
+        <member name="T:WebApiTest.Startup">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:WebApiTest.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:WebApiTest.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+                Este método é obrigatório para utilização de client dinamico
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+        <member name="M:WebApiTest.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            </summary>
+            <param name="services"></param>
+        </member>
+    </members>
+</doc>

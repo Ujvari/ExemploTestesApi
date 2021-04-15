@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <StartupObject>WebApiTest.Program</StartupObject>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\alexander\Documents\Visual Studio 2019\Projects\WebApiTest\WebApiTest\WebApiTest.xml</DocumentationFile>
+  </PropertyGroup>
+
+
+</Project>
